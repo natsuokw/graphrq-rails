@@ -1,0 +1,22 @@
+current directory: /Users/kawainatsuki/Projects/graphrq-rails/vender/bundle/ruby/2.7.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/kawainatsuki/.rbenv/versions/2.7.0/bin/ruby -I /Users/kawainatsuki/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200126-50770-1rbwoj2.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kawainatsuki/Projects/graphrq-rails/vender/bundle/ruby/2.7.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/kawainatsuki/Projects/graphrq-rails/vender/bundle/ruby/2.7.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c:810:7: warning: incompatible pointer types passing 'VALUE (VALUE)' (aka 'unsigned long (unsigned long)') to parameter of type 'VALUE (*)(VALUE, VALUE)' (aka 'unsigned long (*)(unsigned long, unsigned long)') [-Wincompatible-pointer-types]
+      rescue_input_to_storage, Qnil,
+      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/kawainatsuki/.rbenv/versions/2.7.0/include/ruby-2.7.0/ruby/ruby.h:1988:47: note: passing argument to parameter here
+VALUE rb_rescue2(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE,VALUE),VALUE,...);
+                                              ^
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/kawainatsuki/Projects/graphrq-rails/vender/bundle/ruby/2.7.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200126-50770-fi7ev4/bootsnap
